@@ -5,7 +5,7 @@ And README will talk about how I finish this project!
 
 ## Demo Website
 This repo is deploy on my personal website, check it out!  
-* <a href="https://test1.neorangene.com/githubrepogetter" target="_blank">Demo</a>
+* [Demo](https://test1.neorangene.com/githubrepogetter)
 
 ## Install
 u can download my file and install everything.  
