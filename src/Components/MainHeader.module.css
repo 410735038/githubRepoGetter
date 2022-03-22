@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  background-color: rgb(107, 181, 241);
+  height: 5rem;
+  display: flex;
+  /* padding: 0 10%; */
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav a,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.middle_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}

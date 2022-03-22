@@ -1,0 +1,54 @@
+.text-center {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.repoMiddle {
+  float: left;
+  width: 40%;
+  background-color: #286eaf;
+  position: relative;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.repoMiddle a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.repoMiddle a:hover{
+  text-decoration: underline;
+}
+
+.repoRight {
+  float: left;
+  width: 60%;
+  background-color: rgb(152, 181, 206);
+  border-radius: 10px;
+}
+
+.repoRight p{
+  font-size: 20px;
+  color: rgb(240, 243, 247);
+  text-align: center;
+  cursor: default;
+}
+
+.repoLeft a:hover {
+  color: rgb(226, 222, 222);
+  text-decoration:underline;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
